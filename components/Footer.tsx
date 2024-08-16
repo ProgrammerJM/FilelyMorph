@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="flex flex-col md:flex-row items-center justify-center w-full h-auto md:h-24 p-4">
       <div className="flex flex-col justify-center items-center">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} File Converter. All rights reserved.
+          &copy; {new Date().getFullYear()} Filely Morph. All rights reserved.
         </p>
         <div className="flex items-center justify-center mt-5">
           <Link
