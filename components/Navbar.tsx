@@ -10,7 +10,7 @@ const Navbar = () => {
       <Link href="/">
         <Image
           height={100}
-          width={600}
+          width={100}
           alt="logo"
           className="cursor-pointer w-40"
           src={LogoImage}
