@@ -1,4 +1,4 @@
-import Dropzone from "@/components/Dropzone";
+import Dropzone from "@/components/dropzone";
 import Footer from "@/components/Footer";
 
 export default function Home() {
