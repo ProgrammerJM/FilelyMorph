@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FilelyMorph
 
-## Getting Started
+FilelyMorph is a powerful and intuitive web application designed to simplify file conversion. Whether it's an image, video, or audio file, FilelyMorph allows you to convert your files effortlessly in just a few clicks. Simply drag and drop your files and convert them instantly.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Universal File Conversion**: Convert files between a wide range of formats including images, videos, and audio files.
+- **Drag-and-Drop Interface**: Seamlessly upload files by dragging them into the app.
+- **Instant Conversion**: Get your files converted in no time with our efficient conversion process.
+- **Responsive Design**: Enjoy a smooth and consistent experience across all devices, from desktops to mobile phones.
+- **Light & Dark Mode**: Toggle between light and dark themes to suit your preferences.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+FilelyMorph leverages modern web technologies to deliver a smooth user experience:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Next.js**: Fast and scalable framework for building React applications.
+- **React**: Flexible and declarative JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **TypeScript**: Typed JavaScript for better tooling and type safety.
