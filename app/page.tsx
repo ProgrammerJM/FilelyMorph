@@ -8,8 +8,8 @@ export default function Home() {
         File Converter For Everyone
       </h1>
       <p className="text-muted-foreground text-md md:text-lg text-center md:px-24 xl:px-44 2xl:px-52">
-        Convert your files to any format instantly. No registration required.
-        Just drag and drop your files and convert them effortlessly.
+        Convert your files to any format instantly. Just drag and drop your
+        files and convert them effortlessly.
       </p>
       <div className="text-muted-foreground text-center ">
         <span className="block text-sm md:text-lg font-medium">
