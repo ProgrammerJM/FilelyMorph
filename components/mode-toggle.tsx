@@ -2,7 +2,8 @@
 
 import { useTheme } from "next-themes";
 import { Button } from "./ui/button";
-import { MoonIcon, SunIcon } from "lucide-react"; // Direct import
+import { BsSunFill } from "react-icons/bs";
+import { FaMoon } from "react-icons/fa6";
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme();
@@ -12,7 +13,7 @@ export function ModeToggle() {
       variant={"ghost"}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      {theme === "dark" ? <SunIcon /> : <MoonIcon />}
+      {theme === "dark" ? <BsSunFill /> : <FaMoon />}
     </Button>
   );
 }
