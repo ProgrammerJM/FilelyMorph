@@ -13,7 +13,11 @@ export function ModeToggle() {
       variant={"ghost"}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      {theme === "dark" ? <BsSunFill /> : <FaMoon />}
+      {theme === "dark" ? (
+        <BsSunFill className="text-yellow-500" size={20} />
+      ) : (
+        <FaMoon className="text-yellow-500" size={20} />
+      )}
     </Button>
   );
 }
