@@ -1,6 +1,5 @@
 "use client";
 
-// imports
 import { FiUploadCloud } from "react-icons/fi";
 import { LuFileSymlink } from "react-icons/lu";
 import { MdClose } from "react-icons/md";
@@ -105,11 +104,12 @@ export default function Dropzone() {
     setIsReady(false);
     setIsConverting(false);
   };
-  const downloadAll = (): void => {
-    for (let action of actions) {
-      !action.is_error && download(action);
-    }
+  const downloadAll = () => {
+    actions.forEach((action) => {
+      if (!action.is_error) download(action);
+    });
   };
+
   const download = (action: Action) => {
     const a = document.createElement("a");
     a.style.display = "none";
@@ -123,6 +123,7 @@ export default function Dropzone() {
     URL.revokeObjectURL(action.url);
     document.body.removeChild(a);
   };
+
   const convert = async (): Promise<any> => {
     let tmp_actions = actions.map((elt) => ({
       ...elt,
@@ -364,6 +365,32 @@ export default function Dropzone() {
             )}
           </div>
         ))}
+
+        {/* <div className="flex items-center justify-between gap-4">
+          <Button
+            onClick={convert}
+            className="bg-orange-50 text-orange-600 disabled:bg-orange-50 disabled:cursor-not-allowed hover:bg-orange-100"
+            disabled={!is_ready || is_converting}
+          >
+            Convert All
+          </Button>
+          <Button
+            onClick={reset}
+            className="bg-orange-50 text-orange-600 disabled:bg-orange-50 disabled:cursor-not-allowed hover:bg-orange-100"
+            disabled={is_converting || actions.length === 0}
+          >
+            Reset
+          </Button>
+          <Button
+            onClick={downloadAll}
+            className="bg-orange-50 text-orange-600 disabled:bg-orange-50 disabled:cursor-not-allowed hover:bg-orange-100"
+            disabled={!is_done}
+          >
+            <span>Download All</span>
+            <HiOutlineDownload />
+          </Button>
+        </div> */}
+
         <div className="flex w-full justify-end">
           {is_done ? (
             <div className="space-y-4 w-fit">
