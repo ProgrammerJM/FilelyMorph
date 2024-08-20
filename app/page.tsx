@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div className="space-y-16 pb-8">
       <h1 className="text-3xl md:text-5xl font-semibold text-center">
+        <span className="dark:text-purple-400 text-black">FilelyMorph: </span>
         File Converter For Everyone
       </h1>
       <p className="text-muted-foreground text-md md:text-lg text-center md:px-24 xl:px-44 2xl:px-52">
