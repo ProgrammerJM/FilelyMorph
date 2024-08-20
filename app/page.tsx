@@ -1,5 +1,5 @@
-import Dropzone from "@/components/dropzone";
-import Footer from "@/components/footer";
+import Dropzone from "@/components/dropzonee";
+import Footer from "@/components/footerrr";
 
 export default function Home() {
   return (
