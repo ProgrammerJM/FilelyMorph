@@ -5,6 +5,6 @@
   },
   "rules": {
     "semi": 0,
-    "no-extra-semi": ["error", "never"]
+    "no-extra-semi": "error"
   }
 }
