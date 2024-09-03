@@ -5,9 +5,7 @@ const Footer = () => {
   return (
     <footer className="flex flex-col md:flex-row items-center justify-center w-full h-auto md:h-24 p-4">
       <div className="flex flex-col justify-center items-center">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} FilelyMorph. All rights reserved.
-        </p>
+        <p className="text-sm">&copy; {new Date().getFullYear()} FilelyMorph</p>
         <div className="flex items-center justify-center mt-5">
           <Link
             href={"https://github.com/ProgrammerJM"}
